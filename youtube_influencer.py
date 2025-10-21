@@ -53,7 +53,7 @@ search_keywords = [
 # Store unique channels
 # ----------------------------
 channels_dict = {}
-MAX_CHANNELS = 4500  # between 4000–5000 influencers
+MAX_CHANNELS = 5500  # between 5000–6000 influencers
 
 # ----------------------------
 # Fetch channels using search API with pagination
@@ -228,3 +228,4 @@ print("\n✅ Data successfully collected and saved to:", output_path)
 print(f"Total channels saved: {len(df)}")
 print("\n📊 Sample Data:")
 print(df.head(10))
+
